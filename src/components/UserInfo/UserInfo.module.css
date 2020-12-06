@@ -9,18 +9,28 @@
 
 }
 .userCard {
+    margin-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 .imgContainer {
-    width: 50%;
-    max-width: 300px;
+   flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+}
+.imgContainer img {
+    max-height: 300px;
+    object-fit: cover;
 }
 .info {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 .infoRow {
     display: flex;
