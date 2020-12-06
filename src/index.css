@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
+@import "~normalize.css";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  padding-bottom: 50px;
+}

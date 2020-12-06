@@ -1,0 +1,37 @@
+.back {
+    border: 1px solid black;
+    display: inline-flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+}
+.userInfo {
+
+}
+.userCard {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.imgContainer {
+    width: 50%;
+    max-width: 300px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.infoRow {
+    display: flex;
+    gap: 10px;
+}
+.title {
+    font-weight: bold;
+}
+.desc {
+    color: #515151;
+}
+.desc a {
+    color: #515151;
+}
